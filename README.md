@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Interface of Ice and Fire
 
-## Getting Started
+This is a web application built with Next.js, React, and TypeScript that allows users to explore the houses and characters from the "A Song of Ice and Fire" series. The application fetches data from the [A Song of Ice and Fire API](https://anapioficeandfire.com/) and displays it in a user-friendly interface.
 
-First, run the development server:
+![Header Image](public/GOT.png)  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000/houses](http://localhost:3000/houses) with your browser to see the result.
+- **House Listings:** View a list of houses from the series.
+- **Character Details:** Click on a character to see their details.
+- **Pagination:** Navigate through the list of houses with next and previous buttons.
+- **Loading State:** A loading state is displayed while data is being fetched.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Next.js:** Framework for building the application.
+- **React:** Library for building user interfaces.
+- **TypeScript:** Superset of JavaScript for type safety.
+- **Tailwind CSS:** Utility-first CSS framework for styling.
+- **React Query:** Library for fetching and caching data.
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    ```bash
+    git clone https://github.com/linkjavier/interface-of-ice-and-fire.git
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. **Navigate to the project directory:**
 
-## Deploy on Vercel
+    ```bash
+    cd interface-of-ice-and-fire
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Install dependencies:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    ```bash
+    npm install
+    ```
+
+4. **Run the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+    The application will be available at `http://localhost:3000`.
+
+## Usage
+
+1. **Navigate to Houses Page:** The default page lists houses from the "A Song of Ice and Fire" series. http://localhost:3000/houses
+2. **View Character Details:** Click on a character name to see details about him.
+3. **Navigate Between Pages:** Use the "Previous" and "Next" buttons to navigate through pages of houses.
+
+## Contributing
+
+If you'd like to contribute to this project, please follow these steps:
+
+1. **Fork the repository.**
+2. **Create a feature branch:**
+
+    ```bash
+    git checkout -b feature/your-feature
+    ```
+
+3. **Commit your changes:**
+
+    ```bash
+    git commit -am 'Add some feature'
+    ```
+
+4. **Push to the branch:**
+
+    ```bash
+    git push origin feature/your-feature
+    ```
+
+5. **Create a new Pull Request.**
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [A Song of Ice and Fire API](https://anapioficeandfire.com/) for providing the data.
+- [Tailwind CSS](https://tailwindcss.com/) for the styling framework.
+- [React Query](https://react-query.tanstack.com/) for data fetching and caching.
+
+---
+
+Made with 💙 by [Javier Charria Gómez](https://github.com/linkjavier)
